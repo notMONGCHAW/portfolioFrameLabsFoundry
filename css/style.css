@@ -134,6 +134,7 @@ ol {
 }
 
 .set-bg {
+  background: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -282,6 +283,7 @@ ol {
     border-left-color: transparent;
   }
 }
+
 /*---------------------
   Header
 -----------------------*/
@@ -468,8 +470,8 @@ ol {
 }
 
 .hero__item {
-  height: 684px;
-  padding-top: 255px;
+  height: 99.9dvh;
+  padding-top: 280px;
 }
 
 .hero__text span {
@@ -482,9 +484,9 @@ ol {
   position: relative;
   top: 100px;
   opacity: 0;
-  -webkit-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
-  transition: all, 0.3s;
+  -webkit-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
 }
 .hero__text h2 {
   color: #ffffff;
@@ -514,7 +516,7 @@ ol {
 -----------------------*/
 .work {
   overflow: hidden;
-  background: #4992af;
+  background: #028ac0;
 }
 
 .work__gallery {
@@ -607,7 +609,7 @@ ol {
   Counter
 -----------------------*/
 .counter {
-  background: #4992af;
+  background: #028ac0;
   height: 840px;
   padding-top: 380px;
   overflow: hidden;
@@ -769,44 +771,6 @@ ol {
   position: absolute;
   right: 0;
   bottom: 0;
-}
-
-/*---------------------
-  Latest
------------------------*/
-.latest {
-  background: #369ec7;
-  padding-bottom: 80px;
-}
-
-.blog__item.latest__item {
-  margin-bottom: 0;
-}
-.blog__item.latest__item:hover {
-  border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
-  background-size: cover;
-}
-
-.latest__slider.owl-carousel .owl-item .col-lg-4 {
-  max-width: 100%;
-}
-.latest__slider.owl-carousel .owl-dots {
-  text-align: center;
-  padding-top: 35px;
-}
-.latest__slider.owl-carousel .owl-dots button {
-  height: 8px;
-  width: 8px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  margin-right: 10px;
-}
-.latest__slider.owl-carousel .owl-dots button.active {
-  background: #2b2b2b;
-}
-.latest__slider.owl-carousel .owl-dots button:last-child {
-  margin-right: 0;
 }
 
 /*---------------------
@@ -1020,7 +984,7 @@ ol {
   About
 -----------------------*/
 .about {
-  background: #369ec7;
+  background: #028ac0;
   padding-bottom: 150px;
 }
 
@@ -1121,7 +1085,7 @@ ol {
   Services
 -----------------------*/
 .services {
-  background: #369ec7;
+  background: #028ac0;
   padding-bottom: 60px;
   padding-top: 110px;
 }
