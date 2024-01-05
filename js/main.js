@@ -64,7 +64,7 @@
     animateIn: "fadeIn",
     items: 1,
     margin: 0,
-    smartSpeed: 1200,
+    smartSpeed: 5000,
     autoHeight: false,
     autoplay: true,
   });
