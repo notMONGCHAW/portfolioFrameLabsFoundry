@@ -21,6 +21,7 @@
 /*----------------------------------------*/
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%;
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -321,13 +322,13 @@ ol {
 }
 .header__nav__menu ul li.active a:after {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 .header__nav__menu ul li:hover a:after {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 .header__nav__menu ul li:hover .dropdown {
   top: 34px;
@@ -383,8 +384,8 @@ ol {
   background: #2b2b2b;
   content: "";
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
@@ -535,11 +536,11 @@ ol {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .work__item:hover .work__item__hover {
   bottom: 0;
@@ -623,18 +624,18 @@ ol {
   background: #1a083d;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
+  transform: rotate(45deg);
   height: 255px;
   width: 255px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -680,7 +681,7 @@ ol {
 .counter__item__text {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
-      transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .counter__item__text h2 {
   font-size: 60px;
@@ -894,7 +895,7 @@ ol {
   height: 50px;
   width: 100%;
   padding-left: 20px;
-  border: 1px solid #544E5E;
+  border: 1px solid #544e5e;
   background: transparent;
   font-size: 16px;
   color: #adadad;
@@ -1002,7 +1003,7 @@ ol {
   padding-left: 30px;
 }
 .about__text .services__item .services__item__icon:after {
-  border-color: #281A3E;
+  border-color: #281a3e;
 }
 
 .about__text__desc {
@@ -1039,7 +1040,7 @@ ol {
 
 .testimonial__text {
   padding: 30px 40px 25px 30px;
-  border: 1px solid #3D3A64;
+  border: 1px solid #3d3a64;
   margin-bottom: 25px;
   position: relative;
   z-index: 9;
@@ -1101,7 +1102,7 @@ ol {
 .services__item:hover .services__item__icon:after {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .services__item h4 {
   color: #ffffff;
@@ -1195,11 +1196,11 @@ ol {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 28px;
 }
 .portfolio__item__video .play-btn {
@@ -1526,12 +1527,14 @@ ol {
   margin-right: 0;
   margin-left: 5px;
 }
-.blog__details__option__item.blog__details__option__item--right .blog__details__option__item__img {
+.blog__details__option__item.blog__details__option__item--right
+  .blog__details__option__item__img {
   float: right;
   margin-right: 0;
   margin-left: 25px;
 }
-.blog__details__option__item.blog__details__option__item--right .blog__details__option__item__text {
+.blog__details__option__item.blog__details__option__item--right
+  .blog__details__option__item__text {
   margin-right: 25px;
   text-align: right;
   float: none;
@@ -1792,7 +1795,7 @@ ol {
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
-        transform: rotate(0);
+    transform: rotate(0);
     margin-bottom: 30px;
     width: auto;
   }
@@ -1816,7 +1819,7 @@ ol {
   .counter__item__text {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
-        transform: rotate(0);
+    transform: rotate(0);
   }
 
   .counter {
@@ -1866,7 +1869,7 @@ ol {
   }
 
   .slicknav_nav .slicknav_row,
-.slicknav_nav a {
+  .slicknav_nav a {
     padding: 7px 0;
     margin: 0;
     color: #ffffff;
@@ -1913,7 +1916,7 @@ ol {
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
-        transform: rotate(0);
+    transform: rotate(0);
     margin-bottom: 30px;
     width: auto;
   }
@@ -1937,7 +1940,7 @@ ol {
   .counter__item__text {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
-        transform: rotate(0);
+    transform: rotate(0);
   }
 
   .counter {
@@ -1988,7 +1991,7 @@ ol {
   }
 
   .slicknav_nav .slicknav_row,
-.slicknav_nav a {
+  .slicknav_nav a {
     padding: 7px 0;
     margin: 0;
     color: #ffffff;
@@ -2124,4 +2127,23 @@ ol {
   .blog__details__quote {
     padding: 30px 40px 35px 35px;
   }
+}
+#btnTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 1000; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #369ec7; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px;   /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 40px; /* Increase font size */
+}
+
+#btnTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
