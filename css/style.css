@@ -141,6 +141,41 @@ ol {
   background-position: top center;
 }
 
+.service-title{
+  margin-top: 25px;
+}
+.service-title.center-title {
+  text-align: center;
+}
+.service-title.center-title h2:after {
+  right: 0;
+  margin: 0 auto;
+}
+.service-title span {
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.service-title h3 {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.service-title h3:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 70px;
+  content: "";
+}
+
 .spad {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -782,7 +817,7 @@ ol {
 }
 .callto.sp__callto {
   padding-top: 0;
-  background: #369ec7;
+  background: #028ac0;
 }
 
 .callto__text h2 {
@@ -957,6 +992,13 @@ ol {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 12px;
+}
+.breadcrumb__text h3 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding-bottom: 4%;
 }
 
 .breadcrumb__links a {
@@ -1139,7 +1181,7 @@ ol {
   Services Page
 -----------------------*/
 .services-page {
-  background: #369ec7;
+  background: #028ac0;
   padding-bottom: 50px;
 }
 
@@ -1147,7 +1189,7 @@ ol {
   Logo
 -----------------------*/
 .logo {
-  background: #369ec7;
+  background: #028ac0;
   padding: 100px 20px;
 }
 
@@ -1160,7 +1202,7 @@ ol {
   Portfolio
 -----------------------*/
 .portfolio {
-  background: #369ec7;
+  background: #028ac0;
 }
 
 .portfolio__filter {
@@ -1170,7 +1212,7 @@ ol {
 .portfolio__filter li {
   list-style: none;
   font-size: 16px;
-  color: #adadad;
+  color: #ffffff;
   margin-right: 5px;
   display: inline-block;
   cursor: pointer;
@@ -1246,7 +1288,7 @@ ol {
   font-weight: 300;
   margin-right: 24px;
   position: relative;
-  color: #adadad;
+  color: #ffffff;
 }
 .portfolio__item__text ul li:after {
   position: absolute;
@@ -1263,7 +1305,7 @@ ol {
 .portfolio__item__text span {
   font-size: 16px;
   font-weight: 300;
-  color: #adadad;
+  color: #ffffff;
   display: block;
 }
 
@@ -1305,7 +1347,7 @@ ol {
     Blog
 -----------------------*/
 .blog {
-  background: #369ec7;
+  background: #028ac0;
 }
 
 .blog__item {
@@ -1420,7 +1462,7 @@ ol {
   Blog Details
 -----------------------*/
 .blog-details {
-  background: #369ec7;
+  background: #028ac0;
 }
 
 .blog__details__text {
@@ -1639,7 +1681,7 @@ ol {
   Contact Widget
 -----------------------*/
 .contact-widget {
-  background: #369ec7;
+  background: #028ac0;
   padding-bottom: 70px;
 }
 
@@ -1680,7 +1722,7 @@ ol {
   Contact
 -----------------------*/
 .contact {
-  background: #369ec7;
+  background: #028ac0;
   padding-top: 0;
   overflow: hidden;
 }
@@ -2136,7 +2178,7 @@ ol {
   z-index: 1000; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #369ec7; /* Set a background color */
+  background-color: orange; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px;   /* Some padding */
