@@ -735,6 +735,7 @@ ol {
 -----------------------*/
 .team {
   padding-bottom: 90px;
+  padding-top: 90px;
 }
 
 .section-title.team__title {
@@ -742,6 +743,7 @@ ol {
 }
 
 .team__item {
+  margin-bottom: 20px;
   height: 390px;
   position: relative;
   overflow: hidden;
@@ -751,6 +753,7 @@ ol {
 }
 .team__item.team__item--second {
   margin-top: -60px;
+  
 }
 .team__item.team__item--third {
   margin-top: -120px;
