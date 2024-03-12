@@ -1749,7 +1749,7 @@ ol {
   border: 1px solid rgba(225, 225, 225, 0.5);
   background: transparent;
   font-size: 16px;
-  color: #adadad;
+  color: #ffffff;
   padding-left: 20px;
   font-weight: 300;
   margin-right: 20px;
@@ -1759,10 +1759,10 @@ ol {
   transition: all, 0.3s;
 }
 .contact__form form input:placeholder {
-  color: #adadad;
+  color: #ffffff;
 }
 .contact__form form input:focus {
-  border-color: #e1e1e1;
+  border-color: #ffffff;
 }
 .contact__form form textarea {
   height: 110px;
@@ -1770,7 +1770,7 @@ ol {
   border: 1px solid rgba(225, 225, 225, 0.5);
   background: transparent;
   font-size: 16px;
-  color: #adadad;
+  color: #ffffff;
   padding-top: 12px;
   padding-left: 20px;
   font-weight: 300;
@@ -1781,10 +1781,10 @@ ol {
   transition: all, 0.3s;
 }
 .contact__form form textarea:placeholder {
-  color: #adadad;
+  color: #ffffff;
 }
 .contact__form form textarea:focus {
-  border-color: #e1e1e1;
+  border-color: #ffffff;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
